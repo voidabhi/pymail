@@ -17,13 +17,18 @@ def sendemail(from_addr, to_addr_list, cc_addr_list,
     server.quit()
     return problems
     
-l = raw_input("Enter Username!");
-p = raw_input("Enter Password!")
+username = raw_input("Enter Username!")
+password = raw_input("Enter Password!")
+to_addr = raw_input("Enter To Address")
+cc_addr = raw_input("Enter CC Address")
+subject = raw_input("Enter Subject!")
+message = raw_input("Enter Message!")
+
     
-sendemail(from_addr    = 'akshaysheelvant@gmail.com', 
-          to_addr_list = ['void.aby@gmail.com	'],
-          cc_addr_list = ['void.aby@gmail.com'], 
-          subject      = 'Hello', 
-          message      = 'Hi', 
-          login        = l, 
-          password     = p)   
+sendemail(from_addr    = '', 
+          to_addr_list = [to_addr],
+          cc_addr_list = [cc_addr], 
+          subject      = subject, 
+          message      = message, 
+          login        = username, 
+          password     = password)   
