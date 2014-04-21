@@ -1,6 +1,9 @@
 Pymail
 ======
 
-Simple python mailing script with gmail!
+Simple python mailing script with gmail account!
 
-Also, you can add image file as an attachment to the mail.
+Features
+======
+-You can add image file as an attachment to the mail.
+-Message can be taken directly from the clipboard.

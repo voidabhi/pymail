@@ -7,6 +7,9 @@ from  email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
 
+# package for fetching data from clipboard
+import pyperclip
+
  
 def sendemail(from_addr, to_addr_list, cc_addr_list,
               subject, message,
@@ -28,6 +31,8 @@ password = raw_input("Enter Password!")
 to_addr = raw_input("Enter To Address")
 cc_addr = raw_input("Enter CC Address")
 subject = raw_input("Enter Subject!")
+message = pyperclip.getcb().strip()
+if(len(message)==0)
 message = raw_input("Enter Message!")
 _attachment = raw_input("Full name of the attachment! (assumes file is in current directory)") or 'image.jpg'
 
