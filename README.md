@@ -9,6 +9,8 @@ Features
 ```Message can be taken directly from the clipboard.```
 
 License
+=======
+
 The MIT License (MIT)
 
 Copyright (c) 2014 Abhijeet Mohan - https://github.com/voidabhi/pymail
