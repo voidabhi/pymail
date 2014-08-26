@@ -8,6 +8,11 @@ Features
 ```You can add image file as an attachment to the mail.```
 ```Message can be taken directly from the clipboard.```
 
+Contribute
+==========
+
+Feel free to send a pull request.
+
 License
 =======
 
