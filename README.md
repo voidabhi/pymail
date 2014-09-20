@@ -7,7 +7,7 @@ Simple python mailing script!
 
 Requirements
 ===========
-```Working Gmail Account! :P```
+```Working GmaAccount! :P```
 
 Features
 ======
