@@ -12,7 +12,7 @@ Requirements
 Features
 ======
 ```You can add image file as an attachment to the mail.```
-```Copy and send message directly from the clipboard.```
+```Copy and send messages directly from the clipboard.```
 
 Contribute
 ==========
