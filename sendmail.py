@@ -10,7 +10,7 @@ from email.mime.image import MIMEImage
 # package for fetching data from clipboard
 import pyperclip
 
- 
+# function for sending email
 def sendemail(from_addr, to_addr_list, cc_addr_list,
               subject, message,
               login, password,
