@@ -14,8 +14,8 @@ Features
 ```You can add image file as an attachment to the mail.```
 ```Copy and send messages directly from the clipboard.```
 
-Contribute
-==========
+Contribution
+============
 
 Feel free to send a pull request.
 
