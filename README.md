@@ -24,6 +24,11 @@ Developed By
 
 `Abhijeet Mohan` - `void.aby@gmail.com`
 
+<a href="https://plus.google.com/102226057091361048952">
+  <img alt="Follow me on Google+"
+       src="http://data.pkmmte.com/temp/social_google_plus_logo.png" />
+</a>
+
 
 License
 =======
