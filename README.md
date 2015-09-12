@@ -1,7 +1,7 @@
 Pymail
 ======
 
-Mailing made simple.
+Mailing made simple
 
 ![Pymail](http://t1.gstatic.com/images?q=tbn:ANd9GcT5GXG5dBpUGaBds9NqZsPjm7hkO6hRqMeF5lGZXJ71nPIR5rW94g)
 
