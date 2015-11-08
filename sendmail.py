@@ -1,3 +1,4 @@
+#/usr/bin/env python
 
 # simple email message library
 import smtplib
