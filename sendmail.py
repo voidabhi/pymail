@@ -33,9 +33,9 @@ to_addr = raw_input("Enter To Address")
 cc_addr = raw_input("Enter CC Address")
 subject = raw_input("Enter Subject!")
 message = pyperclip.getcb().strip()
-if(len(message)==0)
-message = raw_input("Enter Message!")
-_attachment = raw_input("Full name of the attachment! (assumes file is in current directory)") or 'image.jpg'
+if(len(message)==0):
+	message = raw_input("Enter Message!")
+	_attachment = raw_input("Full name of the attachment! (assumes file is in current directory)") or 'image.jpg'
 
 #Preparing mime message
 mime_message = MIMEMultipart()
