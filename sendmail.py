@@ -49,11 +49,13 @@ msgText = MIMEText('<b>'+message+'</b><br><img src="cid:'+_attachment+'"><br>', 
 mime_message.attach(msgText)
 
 # Adding image as attachment
-f = open(_attachment,"rb")
-mime_image = MIMEImage(f.read())
-f.close()
-mime_image.add_header("Content-ID",_attachment)
-mime_message.attach(mime_image)
+mime_image = None
+with open(_attachment, 'rb') as mimefile:
+	mime_image = MIMEImage(mimefile.read())
+
+if mime_image:
+	mime_image.add_header("Content-ID",_attachment)
+	mime_message.attach(mime_image)
 
 # Adding sender and receiver to mime message
 mime_message["To"] = to_addr
