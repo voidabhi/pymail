@@ -5,22 +5,22 @@ Mailing made simple
 
 ![Pymail](http://t1.gstatic.com/images?q=tbn:ANd9GcT5GXG5dBpUGaBds9NqZsPjm7hkO6hRqMeF5lGZXJ71nPIR5rW94g)
 
-Requirements
-===========
+### Requirements
+
 ```Working Gmail Account! :P```
 
-Features
-======
+### Features
+
 ```You can add image file as an attachment to the mail.```
 ```Copy and send messages directly from the clipboard.```
 
-Contribution
-============
+### Contribution
+
 
 Feel free to send a pull request!
 
-Developed By
-============
+### Developed By
+
 
 `Abhijeet Mohan` - `void.aby@gmail.com`
 
@@ -30,8 +30,8 @@ Developed By
 </a>
 
 
-License
-=======
+### License
+
 
 ```
 Copyright 2014 Abhijeet Mohan - https://github.com/voidabhi/pymail
