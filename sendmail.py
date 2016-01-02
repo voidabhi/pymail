@@ -11,6 +11,11 @@ from email.mime.image import MIMEImage
 # package for fetching data from clipboard
 import pyperclip
 
+# config parser
+from ConfigParser import SafeConfigParser
+parser = SafeConfigParser()
+parser.read('.config')
+
 # function for sending email
 def sendemail(from_addr, to_addr_list, cc_addr_list,
               subject, message,
