@@ -20,7 +20,7 @@ parser.read('.config')
 def sendemail(from_addr, to_addr_list, cc_addr_list,
               subject, message,
               login, password,
-              smtpserver='smtp.gmail.com'): 
+              smtpserver=parser.get('smtp')): 
 		"""Function for connecting, authenticating , sending mail and quitting from smtp server """
 		
 		server = smtplib.SMTP()
