@@ -1,5 +1,5 @@
-Pymail
-======
+## Pymail
+
 
 Mailing made simple
 
