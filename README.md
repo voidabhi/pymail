@@ -14,10 +14,9 @@ Mailing made simple
 ```You can add image file as an attachment to the mail.```
 ```Copy and send messages directly from the clipboard.```
 
-### Contribution
+### Contributing
 
-
-Feel free to send a pull request!
+- Please use the [issue tracker](https://github.com/voidabhi/Tracker/issues) to report any bugs or file feature requests.
 
 ### Developed By
 
