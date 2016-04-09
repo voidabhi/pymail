@@ -16,7 +16,7 @@ Mailing made simple
 
 ### Contributing
 
-- Please use the [issue tracker](https://github.com/voidabhi/Tracker/issues) to report any bugs or file feature requests.
+- Please use the [issue tracker](https://github.com/voidabhi/pymail/issues) to report any bugs or file feature requests.
 
 ### Developed By
 
