@@ -1,5 +1,6 @@
 ## Pymail
 
+### DEPRECATED
 
 Mailing made simple
 
